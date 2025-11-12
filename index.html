@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Link To Bootstrap CSS -->
+    <link rel="stylesheet" href="Style/bootstrap.min.css" />
+    <!-- Link To Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Owl Carosal CSS -->
+    <link rel="stylesheet" href="Style/owl.carousel.min.css" />
+
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="Style/style.css" />
+  </head>
+  <body>
+    <div class="backTotop bg-black">
+      <i class="fa-solid fa-angles-up fa-bounce"></i>
+    </div>
+    <header
+      class="min-vh-100 position-relative d-flex align-items-center"
+      id="header"
+    >
+      <nav
+        class="navbar navbar-expand-lg navbar-dark px-2 position-fixed top-0 start-0 w-100"
+        id="navbartest"
+      >
+        <div class="container-fluid px-3 bg-black">
+          <a class="navbar-brand fs-6" href="#">Osaka</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <div
+              class="nav-toggler-icon d-flex flex-column p-2 justify-content-center align-items-center"
+            >
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#header"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#prices">Price</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonials">Clients</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Testblog">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="header-content ps-lg-5 text-white ps-0">
+        <h2 class="display-5 mb-0 fw-bolder text-uppercase">Robin steel</h2>
+        <p class="mb-5">Developer, Graphics & Web Design</p>
+        <span class="text-uppercase view">View Portfolio</span>
+        <div
+          class="social-icons d-flex justify-content-md-evenly justify-content-between align-items-center position-absolute start-0"
+        >
+          <div class="icon-box">
+            <i class="fab fa-facebook-f"></i>
+          </div>
+          <div class="icon-box">
+            <i class="fab fa-twitter"></i>
+          </div>
+          <div class="icon-box">
+            <i class="fab fa-instagram"></i>
+          </div>
+          <div class="icon-box">
+            <i class="fab fa-behance"></i>
+          </div>
+        </div>
+      </div>
+      <a
+        href="#about"
+        class="move-down position-absolute rounded-top-4 rounded-bottom-4 d-none d-md-block"
+      >
+        <span class="point position-relative"></span>
+      </a>
+    </header>
+
+    <section class="about py-5 text-center" id="about">
+      <div class="special-heading">
+        <h3 data-heading-name="about">About</h3>
+        <p class="px-4">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </p>
+      </div>
+      <div class="container py-sm-0 py-md-5 px-lg-5">
+        <div class="row align-items-center px-lg-5 gap-5 gap-md-0">
+          <div class="col-md-4">
+            <div class="image rounded">
+              <img src="images/me.jpg" class="img-fluid rounded" alt="" />
+            </div>
+          </div>
+          <div class="offset-md-1 col-md-7 text-start about-title">
+            <h4 class="fw-bold">Robin Steel</h4>
+            <p>Creative UI/UX Designer, Developer.</p>
+            <p class="lh-base text-dark">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <span class="mt-5 d-block"
+              >E-mail:
+              <a href="#" class="text-black fw-bold"
+                >info@yourdomain.com</a
+              ></span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills py-5 text-center text-white bg-black">
+      <div class="special-heading">
+        <h3 data-heading-name="my skill">my skill</h3>
+        <p class="px-4 text-white-50">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </p>
+      </div>
+      <div class="container m-auto">
+        <div class="row justify-content-lg-evenly justify-content-center">
+          <div class="col-lg-2 col-md-6">
+            <div class="skill-box mt-0">
+              <h6>HTML/CSS</h6>
+              <span>93%</span>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 mt-sm-5 mt-lg-0">
+            <div class="skill-box">
+              <h6>HTML/CSS</h6>
+              <span>93%</span>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 mt-sm-5 mt-lg-0">
+            <div class="skill-box">
+              <h6>HTML/CSS</h6>
+              <span>93%</span>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 mt-sm-5 mt-lg-0">
+            <div class="skill-box">
+              <h6>HTML/CSS</h6>
+              <span>93%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services py-5 text-center" id="services">
+      <div class="special-heading">
+        <h3 data-heading-name="Services">Services</h3>
+        <p class="px-4 text-white-50">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </p>
+      </div>
+      <div class="container pb-5">
+        <div class="row gy-5">
+          <div class="col-lg-4 col-md-6">
+            <div class="service-box">
+              <div class="service-icon">
+                <i class="fa fa-anchor"></i>
+              </div>
+              <h3>Branding</h3>
+              <div class="line"></div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Reiciendis, magni accusamus necessitatibus.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service-box">
+              <div class="service-icon">
+                <i class="far fa-chart-bar"></i>
+              </div>
+              <h3>Marketing</h3>
+              <div class="line"></div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Reiciendis, magni accusamus necessitatibus.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service-box">
+              <div class="service-icon">
+                <i class="fas fa-globe"></i>
+              </div>
+              <h3>Web Design</h3>
+              <div class="line"></div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Reiciendis, magni accusamus necessitatibus.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service-box">
+              <div class="service-icon">
+                <i class="fas fa-desktop"></i>
+              </div>
+              <h3>Responsive</h3>
+              <div class="line"></div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Reiciendis, magni accusamus necessitatibus.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service-box">
+              <div class="service-icon">
+                <i class="fas fa-code"></i>
+              </div>
+              <h3>Development</h3>
+              <div class="line"></div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Reiciendis, magni accusamus necessitatibus.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service-box">
+              <div class="service-icon">
+                <i class="fas fa-life-ring"></i>
+              </div>
+              <h3>Support</h3>
+              <div class="line"></div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Reiciendis, magni accusamus necessitatibus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio py-5 text-center" id="portfolio">
+      <div class="special-heading">
+        <h3 data-heading-name="portfolio">portfolio</h3>
+        <p class="px-4 text-black-50">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </p>
+      </div>
+      <div class="port-list">
+        <ul class="list-unstyled d-flex justify-content-center gap-4">
+          <li class="item-link active" data-name="all">all</li>
+          <li class="item-link" data-name="dev">dev</li>
+          <li class="item-link" data-name="web">web</li>
+          <li class="item-link" data-name="design">design</li>
+        </ul>
+      </div>
+      <div class="container-fluid pt-4">
+        <div class="row g-4 pb-5">
+          <div class="col-md-4" data-name="design">
+            <div class="item-img overflow-hidden">
+              <img src="images/1.jpg" alt="" />
+              <div class="img-content">
+                <h6>creative design</h6>
+                <span>picture</span>
+                <div class="pic-links d-flex justify-content-center gap-3">
+                  <div class="pic-link-box">
+                    <i class="fas fa-search-plus"></i>
+                  </div>
+                  <div class="pic-link-box">
+                    <i class="fas fa-link"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="img-overlay"></div>
+            </div>
+          </div>
+          <div class="col-md-4" data-name="design">
+            <div class="item-img overflow-hidden">
+              <img src="images/2.jpg" alt="" />
+              <div class="img-content">
+                <h6>creative design</h6>
+                <span>picture</span>
+                <div class="pic-links d-flex justify-content-center gap-3">
+                  <div class="pic-link-box">
+                    <i class="fas fa-search-plus"></i>
+                  </div>
+                  <div class="pic-link-box">
+                    <i class="fas fa-link"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="img-overlay"></div>
+            </div>
+          </div>
+          <div class="col-md-4" data-name="design">
+            <div class="item-img overflow-hidden">
+              <img src="images/3.jpg" alt="" />
+              <div class="img-content">
+                <h6>creative design</h6>
+                <span>picture</span>
+                <div class="pic-links d-flex justify-content-center gap-3">
+                  <div class="pic-link-box">
+                    <i class="fas fa-search-plus"></i>
+                  </div>
+                  <div class="pic-link-box">
+                    <i class="fas fa-link"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="img-overlay"></div>
+            </div>
+          </div>
+          <div class="col-md-4" data-name="dev">
+            <div class="item-img overflow-hidden">
+              <img src="images/4.jpg" alt="" />
+              <div class="img-content">
+                <h6>creative design</h6>
+                <span>picture</span>
+                <div class="pic-links d-flex justify-content-center gap-3">
+                  <div class="pic-link-box">
+                    <i class="fas fa-search-plus"></i>
+                  </div>
+                  <div class="pic-link-box">
+                    <i class="fas fa-link"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="img-overlay"></div>
+            </div>
+          </div>
+          <div class="col-md-4" data-name="design">
+            <div class="item-img overflow-hidden">
+              <img src="images/5.jpg" alt="" />
+              <div class="img-content">
+                <h6>creative design</h6>
+                <span>picture</span>
+                <div class="pic-links d-flex justify-content-center gap-3">
+                  <div class="pic-link-box">
+                    <i class="fas fa-search-plus"></i>
+                  </div>
+                  <div class="pic-link-box">
+                    <i class="fas fa-link"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="img-overlay"></div>
+            </div>
+          </div>
+          <div class="col-md-4" data-name="web">
+            <div class="item-img overflow-hidden">
+              <img src="images/6.jpg" alt="" />
+              <div class="img-content">
+                <h6>creative design</h6>
+                <span>picture</span>
+                <div class="pic-links d-flex justify-content-center gap-3">
+                  <div class="pic-link-box">
+                    <i class="fas fa-search-plus"></i>
+                  </div>
+                  <div class="pic-link-box">
+                    <i class="fas fa-link"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="img-overlay"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="prices text-center py-5" id="prices">
+      <div class="special-heading">
+        <h3 data-heading-name="price">price</h3>
+        <p class="px-4 text-black-50">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </p>
+      </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-sm-11 col-md-10">
+            <div class="owl-carousel owl-theme">
+              <div class="item py-3 px-2">
+                <div class="price-box">
+                  <div class="price-header d-flex flex-column">
+                    <h6>free</h6>
+                    <h3 class="text-white"><span>$</span>0</h3>
+                  </div>
+                  <ul class="list-unstyled">
+                    <li>1 user account</li>
+                    <li>3 website</li>
+                    <li>10Gb disk space</li>
+                    <li>email support</li>
+                  </ul>
+                  <button class="price-btn rounded-pill">try</button>
+                </div>
+              </div>
+              <div class="item py-3 px-2">
+                <div class="price-box">
+                  <div class="price-header d-flex flex-column">
+                    <h6>basic</h6>
+                    <h3><span>$</span>15</h3>
+                  </div>
+                  <ul class="list-unstyled">
+                    <li>2 user account</li>
+                    <li>10 website</li>
+                    <li>20Gb disk space</li>
+                    <li>mon-fri support</li>
+                  </ul>
+                  <button class="price-btn rounded-pill">buy</button>
+                </div>
+              </div>
+              <div class="item py-3 px-2">
+                <div class="price-box">
+                  <div class="price-header d-flex flex-column">
+                    <h6>delux</h6>
+                    <h3><span>$</span>25</h3>
+                  </div>
+                  <ul class="list-unstyled">
+                    <li>3 user account</li>
+                    <li>20 website</li>
+                    <li>40Gb disk space</li>
+                    <li>mon-fri support</li>
+                  </ul>
+                  <button class="price-btn rounded-pill">buy</button>
+                </div>
+              </div>
+              <div class="item py-3 px-2">
+                <div class="price-box">
+                  <div class="price-header d-flex flex-column">
+                    <h6>premium</h6>
+                    <h3><span>$</span>35</h3>
+                  </div>
+                  <ul class="list-unstyled">
+                    <li>5 user account</li>
+                    <li>60 website</li>
+                    <li>60Gb disk space</li>
+                    <li>24/7 support</li>
+                  </ul>
+                  <button class="price-btn rounded-pill">buy</button>
+                </div>
+              </div>
+              <div class="item py-3 px-2">
+                <div class="price-box">
+                  <div class="price-header d-flex flex-column">
+                    <h6>enterprice</h6>
+                    <h3><span>$</span>50</h3>
+                  </div>
+                  <ul class="list-unstyled">
+                    <li>10 user account</li>
+                    <li>100 website</li>
+                    <li>120Gb disk space</li>
+                    <li>24/7 support</li>
+                  </ul>
+                  <button class="price-btn rounded-pill">buy</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="numbers text-center py-5 text-white">
+      <div class="container py-3">
+        <div class="row justify-content-evenly gap-md-2 row-gap-5">
+          <div class="col-lg-2 col-md-6">
+            <div
+              class="number-box d-flex justify-content-center align-content-center flex-column"
+            >
+              <i class="fas fa-thumbs-up"></i>
+              <h4 class="number" data-number="34567" data-start="34450">0</h4>
+              <span>likes</span>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <div
+              class="number-box d-flex justify-content-center align-content-center flex-column"
+            >
+              <i class="fas fa-users"></i>
+              <h4 class="number" data-number="358" data-start="300">0</h4>
+              <span>client</span>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <div
+              class="number-box d-flex justify-content-center align-content-center flex-column"
+            >
+              <i class="fas fa-file-alt"></i>
+              <h4 class="number" data-number="853" data-start="800">0</h4>
+              <span>projects</span>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <div
+              class="number-box d-flex justify-content-center align-content-center flex-column"
+            >
+              <i class="fas fa-award"></i>
+              <h4 class="number" data-number="18" data-start="0">0</h4>
+              <span>awards</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials py-5 text-center" id="testimonials">
+      <div class="special-heading">
+        <h3 data-heading-name="testmonials">testmonials</h3>
+        <p class="px-4 text-black-50">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </p>
+      </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-11 test-item">
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <div class="item-container pt-5 pb-3 px-md-5">
+                  <div class="test-box py-5 px-4">
+                    <div class="img">
+                      <img src="images/3 (1).jpg" alt="Slide 1" />
+                    </div>
+                    <h6 class="mb-0 p-0 mt-3">Robin Prety</h6>
+                    <span>Senior Designer</span>
+                    <div class="line"></div>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Vestibulum eget est sit amet sapien congue tristique.
+                      Integer mollis auctor ultrices. Praesent vitae dapibus
+                      elit. Sed sit amet tellus magna.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="item-container pt-5 pb-3 px-md-5">
+                  <div class="test-box py-5 px-4">
+                    <div class="img">
+                      <img src="images/1 (1).jpg" alt="Slide 2" />
+                    </div>
+                    <h6 class="mb-0 p-0 mt-3">Olivia Nealon</h6>
+                    <span>Web Designer</span>
+                    <div class="line"></div>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Vestibulum eget est sit amet sapien congue tristique.
+                      Integer mollis auctor ultrices. Praesent vitae dapibus
+                      elit. Sed sit amet tellus magna.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="item-container pt-5 pb-3 px-md-5">
+                  <div class="test-box py-5 px-4">
+                    <div class="img">
+                      <img src="images/2 (1).jpg" alt="Slide 3" />
+                    </div>
+                    <h6 class="mb-0 p-0 mt-3">Maxwell Doe</h6>
+                    <span>Graphics Designer</span>
+                    <div class="line"></div>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Vestibulum eget est sit amet sapien congue tristique.
+                      Integer mollis auctor ultrices. Praesent vitae dapibus
+                      elit. Sed sit amet tellus magna.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="item-container pt-5 pb-3 px-md-5">
+                  <div class="test-box py-5 px-4">
+                    <div class="img">
+                      <img src="images/4 (1).jpg" alt="Slide 4  " />
+                    </div>
+                    <h6 class="mb-0 p-0 mt-3">Emilie Chapin</h6>
+                    <span>Graphics Designer</span>
+                    <div class="line"></div>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Vestibulum eget est sit amet sapien congue tristique.
+                      Integer mollis auctor ultrices. Praesent vitae dapibus
+                      elit. Sed sit amet tellus magna.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="item-container pt-5 pb-3 px-md-5">
+                  <div class="test-box py-5 px-4">
+                    <div class="img">
+                      <img src="images/5 (1).jpg" alt="Slide 5  " />
+                    </div>
+                    <h6 class="mb-0 p-0 mt-3">Adrian Hassoon</h6>
+                    <span>web Designer</span>
+                    <div class="line"></div>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Vestibulum eget est sit amet sapien congue tristique.
+                      Integer mollis auctor ultrices. Praesent vitae dapibus
+                      elit. Sed sit amet tellus magna.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="landmarks bg-black py-5 d-flex justify-content-center align-content-center"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="owl-carousel owl-theme clients-land">
+              <div class="item box"><img src="images/1.svg" alt="" /></div>
+              <div class="item box"><img src="images/2.svg" alt="" /></div>
+              <div class="item box"><img src="images/3.svg" alt="" /></div>
+              <div class="item box"><img src="images/4.svg" alt="" /></div>
+              <div class="item box"><img src="images/5.svg" alt="" /></div>
+              <div class="item box"><img src="images/6.svg" alt="" /></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog py-5 text-center" id="Testblog">
+      <div class="special-heading">
+        <h3 data-heading-name="blog">blog</h3>
+        <p class="px-4 text-black-50">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </p>
+      </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-sm-11 col-md-10">
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <div class="card">
+                  <div class="img">
+                    <img
+                      class="card-img-top"
+                      src="images/3 (2).jpg"
+                      alt="Card image cap"
+                    />
+                  </div>
+                  <div class="card-icon">
+                    <i class="fas fa-book-open"></i>
+                  </div>
+                  <div class="card-body text-start pe-5 ps-4 pb-4">
+                    <h5 class="card-title fw-bold">Coffe Break</h5>
+                    <div class="card-deatils d-flex gap-3 my-3">
+                      <div class="d-flex gap-2 align-items-center">
+                        <i class="far fa-calendar-alt"></i>
+                        <span>22 June 2018</span>
+                      </div>
+                      <div class="d-flex gap-2 align-items-center">
+                        <i class="fas fa-user"></i>
+                        <span>Robin</span>
+                      </div>
+                    </div>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Vestibulum eget est sit amet sapien congue tristique.
+                      Integer mollis auctor ultrices. Praesent vitae dapibus
+                      elit ...
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card">
+                  <div class="img">
+                    <img
+                      class="card-img-top"
+                      src="images/4 (2).jpg"
+                      alt="Card image cap"
+                    />
+                  </div>
+                  <div class="card-icon">
+                    <i class="fas fa-book-open"></i>
+                  </div>
+                  <div class="card-body text-start pe-5 ps-4 pb-4">
+                    <h5 class="card-title fw-bold">Amazing Place</h5>
+                    <div class="card-deatils d-flex gap-3 my-3">
+                      <div class="d-flex gap-2 align-items-center">
+                        <i class="far fa-calendar-alt"></i>
+                        <span>29 June 2018</span>
+                      </div>
+                      <div class="d-flex gap-2 align-items-center">
+                        <i class="fas fa-user"></i>
+                        <span>Robin</span>
+                      </div>
+                    </div>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Vestibulum eget est sit amet sapien congue tristique.
+                      Integer mollis auctor ultrices. Praesent vitae dapibus
+                      elit ...
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card">
+                  <div class="img">
+                    <img
+                      class="card-img-top"
+                      src="images/1 (2).jpg"
+                      alt="Card image cap"
+                    />
+                  </div>
+                  <div class="card-icon">
+                    <i class="fas fa-book-open"></i>
+                  </div>
+                  <div class="card-body text-start pe-5 ps-4 pb-4">
+                    <h5 class="card-title fw-bold">Morning Ride Bike</h5>
+                    <div class="card-deatils d-flex gap-3 my-3">
+                      <div class="d-flex gap-2 align-items-center">
+                        <i class="far fa-calendar-alt"></i>
+                        <span>14 May 2018</span>
+                      </div>
+                      <div class="d-flex gap-2 align-items-center">
+                        <i class="fas fa-user"></i>
+                        <span>Robin</span>
+                      </div>
+                    </div>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Vestibulum eget est sit amet sapien congue tristique.
+                      Integer mollis auctor ultrices. Praesent vitae dapibus
+                      elit ...
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card">
+                  <div class="img">
+                    <img
+                      class="card-img-top"
+                      src="images/2 (2).jpg"
+                      alt="Card image cap"
+                    />
+                  </div>
+                  <div class="card-icon">
+                    <i class="fas fa-book-open"></i>
+                  </div>
+                  <div class="card-body text-start pe-5 ps-4 pb-4">
+                    <h5 class="card-title fw-bold">Hard Working</h5>
+                    <div class="card-deatils d-flex gap-3 my-3">
+                      <div class="d-flex gap-2 align-items-center">
+                        <i class="far fa-calendar-alt"></i>
+                        <span>25 June 2018</span>
+                      </div>
+                      <div class="d-flex gap-2 align-items-center">
+                        <i class="fas fa-user"></i>
+                        <span>Robin</span>
+                      </div>
+                    </div>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Vestibulum eget est sit amet sapien congue tristique.
+                      Integer mollis auctor ultrices. Praesent vitae dapibus
+                      elit ...
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact py-5 text-center" id="contact">
+      <div class="special-heading">
+        <h3 data-heading-name="get in touch">get in touch</h3>
+        <p class="px-4 text-white-50">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 offset-md-1">
+            <form class="text-start">
+              <input type="text" placeholder="Name*" required />
+              <input type="email" placeholder="Email" required />
+              <textarea rows="5" placeholder="Message*" required></textarea>
+              <button type="submit" class="text-uppercase mt-3 p-2">
+                send message
+              </button>
+            </form>
+          </div>
+          <div
+            class="col-md-5 offset-md-1 text-start d-flex flex-column row-gap-5 mt-5 mt-md-3"
+          >
+            <div class="phone d-flex flex-column">
+              <span>Phone</span>
+              <span class="text-white mt-2">+20 122 821 6674</span>
+            </div>
+            <div class="location d-flex flex-column">
+              <span>Location</span>
+              <span class="text-white mt-2">Alex, Egypt</span>
+            </div>
+            <div class="email d-flex flex-column">
+              <span>Email</span>
+              <span class="text-white mt-2">info@yourdomain.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer text-center p-3">
+        <span class="text-uppercase">2024 &copy; copyright by osaka</span>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="Script/bootstrap.bundle.min.js"></script>
+    <!-- Jquery -->
+    <script src="Script/JQuery.js"></script>
+    <!-- Owl Carosal -->
+    <script src="Script/owl.carousel.min.js"></script>
+
+    <script src="Script/script.js"></script>
+  </body>
+</html>
